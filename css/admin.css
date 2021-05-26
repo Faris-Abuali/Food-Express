@@ -1,0 +1,216 @@
+/* 
+    Author: Fares H. Abuali;
+    Theme: Food Order Website Admin;
+    Version: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*::selection {
+    color: #FFF;
+    background: #57606f; /* WebKit/Blink Browsers */
+}
+*::-moz-selection {
+    color: #FFF;
+    background: #57606f; /* Gecko Browsers */
+}
+
+.wrapper{
+    /* border: 1px solid #000; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+.tbl-50{
+    width: 50%;
+}
+
+table tr th{
+    border-bottom: 1px solid #000;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary, .btn-primary-rounded{
+    /* #1e90ff */
+    background-color: #0abde3;
+    padding: 1%;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #5352ed;
+}
+
+.btn-primary-rounded{
+    border-radius: 10px;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    /* border-radius: 2px; */
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    /* border-radius: 2px; */
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* tr:hover {background-color:#ced6e0;} */
+
+/* CSS for Main Content */
+
+.main-content{
+    /* margin: 1% 0; */
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #FFF;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for Footer */
+.footer{
+    background-color: #ff4757;
+    color: #FFF;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ced6e0;
+}
+
+.footer a:hover{
+    /* text-decoration: underline; */
+    color: #FFF;
+}
+
+
+/* CSS for Menu (Navbar) */
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul a:hover{
+    color: #ff4757;
+    text-decoration: overline;
+}
+
+
+/* CSS for Login */
+
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background-color: #d6dee1;
+      border-radius: 20px;
+      border: 6px solid transparent;
+      background-clip: content-box;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #a8bbbf; 
+  }
+
+
+  @media only screen and (max-width:768px){
+
+    .col-4{
+        width: 80%;
+        margin: 1% auto;
+    }
+
+  }
